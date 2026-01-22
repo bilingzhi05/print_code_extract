@@ -22,7 +22,7 @@ def main():
     timestamp = time.strftime("%Y%m%d_%H%M%S", time.localtime())
     # --- Configuration ---
     PROJECT = "media_hal"
-    ROOT_DIR = os.path.join(current_dir, PROJECT)
+    ROOT_DIR = "/home/bj17300-049u/work/mediahal_wraper/media_hal"
     TAG = f"{timestamp}_{PROJECT}_logset"
     os.makedirs(TAG, exist_ok=True)
     TAG = os.path.join(TAG, TAG)
